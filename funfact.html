@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fun Fact Generator</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="menu-toggle" onclick="toggleSidebar()">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <div class="sidebar">
+    <h2>Legg til ny Fun Fact</h2>
+    <input type="text" id="new-fact-input" placeholder="Skriv inn en ny Fun Fact">
+    <button id="add-fact-btn">Legg til</button>
+  </div>
+
+  <div class="main-content">
+    <h1>Fun Fact Generator</h1>
+    <div class="fun-fact">
+      <p id="fun-fact-text">Trykk på knappen for å generere en morsom fakta!</p>
+    </div>
+    <button id="fun-fact-btn">Fun Fact of the Day</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
